@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+}
+#seats {
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+.seat {
+  position: absolute;
+  height: 80px;
+  width: 100px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.person {
+  position: absolute;
+  height: 35px;
+  width: 90px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: top 0.8s ease-in-out,left 0.8s ease-in-out;
+  border-radius: 5px;
+}
+button {
+  width: 100px;
+  height: 80px;
+  border-radius: 5px;
+}
